@@ -1,0 +1,14 @@
+
+# IDE
+/nbproject
+
+# tmp
+/assets
+/protected/runtime
+
+# local
+/protected/config/database.php
+/scripts/cron_local.php
+
+
+

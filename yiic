@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+require_once 'scripts/functions.php';
+
+$yiic = DIR_FW.'yiic.php';
+$config = DIR_APP.'config/console.php';
+
+require_once($yiic);
+

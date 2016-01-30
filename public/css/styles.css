@@ -1,0 +1,123 @@
+
+/* layouts */
+
+.navbar-loading-indicator{
+	width: 16px;
+	height: 16px;
+	margin-top: 12px;
+}
+
+.loading-indicator{
+	width: 16px;
+	height: 16px;
+}
+
+.l_footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 100px;
+	color: #767676;
+	text-align: center;
+	border-top: 1px solid #e5e5e5;
+}
+
+.header_updated{
+	padding: 15px 10px;
+	line-height: 20px;
+	position: relative;
+	display: block;
+	color: #767676;
+}
+
+
+/* modificator */
+.m_positive {
+	color: green;
+}
+
+.m_negative {
+	color: red;
+}
+
+
+/* sites style */
+
+.pns{
+	background-color: #EEF9FF
+}
+
+.etz{
+	background-color: #FDFBF0
+}
+
+.wlh{
+	background-color: #F8EEFF
+}
+
+/* event */
+
+.b_event_hide, .b_event_show{
+	font-size: 12px;
+	cursor: pointer;
+	float: right;
+	margin-top: 2px;
+}
+
+.b_event_hidden{
+	color: lightgrey;
+}
+
+.b_event_link{
+	font-size: 12px;
+	cursor: pointer;
+	float: right;
+	margin-top: 2px;
+}
+
+.m_event_selected{
+	background-color: #EEFFEE;
+}
+
+.m_event_selected .link_event{
+	display: none;
+}
+
+.m_event_selected .event_linked{
+	display: block;
+}
+
+.m_event_islive{
+	float: right;
+	margin-right: 12px;
+}
+.m_event_islive > .glyphicon {
+	margin-top: 2px;
+}
+
+
+/* event_etz */
+.etz_mbs{
+	display: inline-block;
+	line-height: 14px;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: 12px;
+	margin-top: 2px;
+}
+
+.etz_mbs1{
+	background-image: url('/img/etz_mbs1.png');
+}
+
+.etz_mbs2{
+	background-image: url('/img/etz_mbs2.png');
+}
+
+.etz_mbs3{
+	background-image: url('/img/etz_mbs3.png');
+}
+
+.etz_mbs4{
+	background-image: url('/img/etz_mbs4.png');
+}
